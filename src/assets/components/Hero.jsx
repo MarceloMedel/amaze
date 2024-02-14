@@ -96,7 +96,7 @@ export default function Hero() {
               </div>
               
             <h1 className='font-avenir tracking-tightest text-4xl sm:text-6xl xl:text-10xl md:text-8xl pb-4'>
-              Q enuevate por dentro, brilla por fuera.
+              Renuevate por dentro, brilla por fuera.
             </h1>
             <div />
             <div className='flex flex-wrap -mx-4 -mb-4 md:mb-0 p-3'>

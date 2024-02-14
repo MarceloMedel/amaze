@@ -1,20 +1,20 @@
 import React from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+// import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-const meta = {
-  title: '',
-  meta: [],
-  link: [],
-  style: [],
-  script: [],
-};
+// const meta = {
+//   title: '',
+//   meta: [],
+//   link: [],
+//   style: [],
+//   script: [],
+// };
 
 export default function Contacto() {
   return (
     <React.Fragment>
-      <HelmetProvider>
+      {/* <HelmetProvider>
         <Helmet {...meta}></Helmet>
-      </HelmetProvider>
+      </HelmetProvider> */}
       <section className='py-12 md:py-20 bg-coolGray-100 bs-section-dragged'>
         <div className='container mx-auto px-4'>
           {' '}
