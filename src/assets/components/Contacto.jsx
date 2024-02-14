@@ -33,43 +33,46 @@ export default function Contacto() {
                     Contáctanos
                   </h1>{' '}
                   <p className='text-xl text-coolGray-600'>
-                    Whereby Embedded is the easiest way to embed video calls
-                    directly into your app, website, or anywhere else you need
-                    beautiful, custom video chat – that just works.
+                    Asesoramiento personalizado, visítanos en nuestro estudio en Chicureo o escríbenos a través de nuestras redes sociales.
                   </p>{' '}
                 </div>{' '}
+
                 <div className='flex flex-wrap -mx-4 mb-20'>
                   {' '}
                   <div className='w-full sm:w-1/2 px-4 mb-6 sm:mb-0'>
                     {' '}
                     <div className='py-6 text-center border border-coolGray-300 rounded-3xl justify-center items-center'>
-                      {' '}
-                      <div className='flex justify-center'>
+                      <a href="https://wa.me/56932980046?text=Hola%2C%20me%20contacto%20para%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Amaze%20Car%20Detailing" target="_blank" rel="web">
                         {' '}
-                        <img
-                          className='block h-10 rounded-t-4xl'
-                          src='images/whatsapp-icons8.svg'
-                          alt=''
-                        />
-                      </div>{' '}
-                      <span className='font-medium'>+56 9 3298 0046</span>{' '}
+                        <div className='flex justify-center'>
+                          {' '}
+                          <img
+                            className='block h-10 rounded-t-4xl'
+                            src='images/whatsapp-icons8.svg'
+                            alt=''
+                          />
+                        </div>{' '}
+                        <span className='font-medium'>+56 9 3298 0046</span>{' '}
+                      </a>
                     </div>{' '}
                   </div>{' '}
                   <div className='w-full sm:w-1/2 px-4'>
-                    {' '}
-                    <div className='py-6 text-center border border-coolGray-300 rounded-3xl'>
+                    <a href="https://www.instagram.com/amazecardetailing/" target="_blank" rel="web">
                       {' '}
-                      <div className='flex justify-center'>
+                      <div className='py-6 text-center border border-coolGray-300 rounded-3xl'>
                         {' '}
-                        <img
-                          className='block h-10 rounded-t-4xl object-cover'
-                          src='images/icons8-instagram-48.png'
-                          alt=''
-                        />
+                        <div className='flex justify-center'>
+                          {' '}
+                          <img
+                            className='block h-10 rounded-t-4xl object-cover'
+                            src='images/icons8-instagram-48.png'
+                            alt=''
+                          />
+                        </div>{' '}
+                        <span className='block mb-2 text-sm text-coolGray-500' />{' '}
+                        <span className='font-medium'>@amazecardetailing</span>{' '}
                       </div>{' '}
-                      <span className='block mb-2 text-sm text-coolGray-500' />{' '}
-                      <span className='font-medium'>@amazecardetailing</span>{' '}
-                    </div>{' '}
+                    </a>
                   </div>{' '}
                 </div>{' '}
                 <div>

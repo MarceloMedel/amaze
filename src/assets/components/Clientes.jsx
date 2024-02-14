@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 // import BeforeAfterSlider from './BeforeAfter';
 //import { ImgComparisonSlider} from '@img-comparison-slider/react';
 import ClienteBeforeAfter from './ClienteBeforeAfter';
-import { dataCliente } from '../dataCliente.js';
+import { dataCliente } from '../../dataCliente.js';
 
 const meta = {
   title: '',

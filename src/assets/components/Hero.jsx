@@ -85,21 +85,22 @@ export default function Hero() {
             </div>
           </div>
         </nav>
-        <div className='container mx-auto px-4'>
-          <div className='relative mx-auto mb-12 pt-12 pb-64 xs:pb-40 lg:pb-12 border-b'>
-            <h1 className='font-heading tracking-tightest text-5xl sm:text-8xl xl:text-12xl md:text-9xl'>
-              Renuevate por dentro, brilla por fuera.
-            </h1>
-            <div />
-            <div className='flex flex-wrap -mx-4 -mb-4 md:mb-0'>
+        <div className='container mx-auto px-1 overflow-auto'>
+          <div className='relative mx-auto mb-auto pt-8 pb-24 xs:pb-40 lg:pb-12 border-b'>
               <div className='w-full md:w-1/3 px-4 mb-4 md:mb-0'>
                 <img
-                  className='h-12'
+                  className='w-full left-0 pb-4'
                   src='images/amaze-cdb-png-1707775473066.webp'
                   alt=''
                 />
               </div>
-              <div className='w-full md:w-2/3 px-4 mb-4 md:mb-0'>
+              
+            <h1 className='font-avenir tracking-tightest text-4xl sm:text-6xl xl:text-10xl md:text-8xl pb-4'>
+              Q enuevate por dentro, brilla por fuera.
+            </h1>
+            <div />
+            <div className='flex flex-wrap -mx-4 -mb-4 md:mb-0 p-3'>
+              <div className='w-full md:w-2/3 px-0 mb-2 md:mb-0 '>
                 <p className='mb-2'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                   sit eaque totam aliquid veritatis assumenda temporibus harum
