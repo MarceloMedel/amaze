@@ -1,5 +1,9 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+// import BeforeAfterSlider from './BeforeAfter';
+//import { ImgComparisonSlider} from '@img-comparison-slider/react';
+import ClienteBeforeAfter from './ClienteBeforeAfter';
+import { dataCliente } from '../dataCliente.js';
 
 const meta = {
   title: '',
@@ -25,63 +29,12 @@ export default function Clientes() {
               Clientes
             </h1>
           </div>
-          <a className='text-black font-medium hover:underline' href='#'>
-            Simple link
-          </a>
-          <div className='flex flex-wrap -mx-4 -mb-20'>
-            <div className='w-full lg:w-1/2 px-4 mb-20'>
-              <a className='group block' href='#'>
-                <img
-                  className='block object-cover h-80'
-                  src='https://images.unsplash.com/photo-1622210642960-0f6a2cdbdc9f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHwxNHx8cmF2NHxlbnwwfHx8fDE3MDc4Mjk1MzN8MA&ixlib=rb-4.0.3&q=85&w=1920'
-                  alt=''
-                />
-                <div className='relative mb-6 rounded-4xl overflow-hidden'>
-                  <div className='absolute left-0 top-0 h-full w-full group-hover:bg-opacity-10 group-hover:bg-black transition duration-200'>
-                    <img
-                      className='block w-full h-full'
-                      src='asitrastudio-assets/projects/photo-one-four4.png'
-                      alt=''
-                    />
-                  </div>
-                </div>
-                <div>
-                  <h3 className='text-4xl tracking-tight mb-6'>
-                    Toyota RAV4 Híbrida
-                  </h3>
-                  <p
-                    className='max-w-xl text-coolGray-600'
-                    contentEditable='false'
-                  >
-                    Breve descripción del trabajo realizado...
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className='w-full lg:w-1/2 px-4 mb-20'>
-              <a className='group block' href='#'>
-                <img
-                  className='block object-cover h-80'
-                  src='https://images.unsplash.com/photo-1551830820-330a71b99659?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxmMTUwfGVufDB8fHx8MTcwNzg1NDI3MHww&ixlib=rb-4.0.3&q=85&w=1920'
-                  alt=''
-                />
-                <div className='relative mb-6 rounded-4xl overflow-hidden'>
-                  <div className='absolute left-0 top-0 h-full w-full group-hover:bg-opacity-10 group-hover:bg-black transition duration-200'>
-                    <img
-                      className='block w-full h-full'
-                      src='https://images.unsplash.com/photo-1551830820-330a71b99659?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHwxfHxmb3JkJTIwZjE1MHxlbnwwfDB8fHwxNzA3ODI5Njk4fDA&ixlib=rb-4.0.3&q=85&w=1920'
-                      alt=''
-                    />
-                  </div>
-                </div>
-                <div>
-                  <h3 className='text-4xl tracking-tight mb-6'>Ford F150</h3>
-                  <p className='max-w-xl text-coolGray-600'>
-                    Breve descripción del trabajo realizado...
-                  </p>
-                </div>
-              </a>
-            </div>
+
+          <div className='flex flex-wrap -mx-4'>
+            {dataCliente.map((item) => 
+              <ClienteBeforeAfter key={item.title} {...item}/>
+
+            )}
           </div>
           <div className='mt-20 text-center'>
             <a
@@ -119,7 +72,7 @@ export default function Clientes() {
           </div>
         </div>
       </section>
-    </React.Fragment>
+      </React.Fragment>
   );
 }
 
