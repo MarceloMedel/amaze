@@ -35,39 +35,20 @@
   cursor: pointer;
 }
 
-.next,
-.prev {
-  top: calc(50% - 20px);
-  position: absolute;
-  background: white;
-  border-radius: 30px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 18px;
-  z-index: 2;
+#before-after {
+  height: 45vh; /* Adjust the height as needed */
 }
 
-.next {
-  right: 10px;
+.react-img-comparison {
+  height: 45vh; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
 }
 
-.prev {
-  left: 10px;
-  transform: scale(-1);
-}
-
-.carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; /* Ensure it covers the container width */
-  height: auto; /* Maintain aspect ratio */
+.react-slideshow-container .each-slide-effect {
+  height: 45vh; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
 }
 
 @keyframes logo-spin {
