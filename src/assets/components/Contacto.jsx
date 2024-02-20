@@ -15,7 +15,7 @@ export default function Contacto() {
       {/* <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider> */}
-      <section className='py-12 md:py-20 bg-coolGray-100 bs-section-dragged'>
+      <section className='py-12 md:py-20 bg-coolGray-100 bs-section-dragged' id="contacto">
         <div className='container mx-auto px-4'>
           {' '}
           <div className='flex flex-wrap -mx-4'>

@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 // import BeforeAfterSlider from './BeforeAfter';
 //import { ImgComparisonSlider} from '@img-comparison-slider/react';
 import ClienteBeforeAfter from './ClienteBeforeAfter';
-import { dataCliente } from '../../dataCliente.js';
+import { dataCliente } from '../../dataClienteExample.js';
 
 const meta = {
   title: '',
@@ -21,7 +21,7 @@ export default function Clientes() {
       </HelmetProvider>
       <section
         className='py-12 md:py-24 bg-coolGray-50 bs-section-dragged'
-        id='services-section'
+        id='clientes-section'
       >
         <div className='container mx-auto px-4'>
           <div className='inline-flex w-full mx-auto items-start justify-center text-center mb-20'>
@@ -39,9 +39,11 @@ export default function Clientes() {
           <div className='mt-20 text-center'>
             <a
               className='group inline-flex py-4 px-6 md:px-30 font-medium text-black hover:text-white items-center justify-center border-1.5 border-black rounded-full hover:bg-black transition duration-200'
-              href='#'
+              href='/clientesPage'
             >
+              
               <span className='mr-2'>Ver todos</span>
+
               <span className='group-hover:rotate-45 transform transition duration-100'>
                 <svg
                   width={10}

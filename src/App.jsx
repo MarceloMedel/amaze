@@ -1,22 +1,62 @@
 import React from 'react';
 import './App.css'
+import { useLocation, useRoutes } from "react-router-dom";
+import Home from "./pages/home";
+import ClientesPage from "./pages/clientes";
 import Servicios from './assets/components/Servicios'
-import Hero from './assets/components/Hero'
+
+
 import Contacto from './assets/components/Contacto'
 import Clientes from './assets/components/Clientes'
-import Call from './assets/components/Call'
+
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
+  const element = useRoutes([
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/servicios",
+      element: (
+        <Servicios />
+      )
+    },
+    {
+      path: "/clientes",
+      element: (
+        <Clientes />
+      )
+    },
+    {
+      path: "/contacto",
+      element: (
+        <Contacto />
+      )
+    },
+    {
+      path: "/clientesPage",
+      element: (
+        <ClientesPage />
+      )
+    }
+  ]);
+
+  const location = useLocation();
+
+  if (!element) return null;
+
   return (
     <>
-    <Hero />
-    <Servicios />
-    <Call />
-    <Clientes />
-    <Contacto />
+    {React.cloneElement(element, { key: location.pathname })}
+    {/* <Hero /> */}
+    {/* <Servicios /> */}
+    {/* <Call /> */}
+    {/* <Clientes /> */}
+    {/* <Contacto /> */}
     </>
   )
 }

@@ -15,7 +15,7 @@ export default function Servicios() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <section className='py-12 md:py-24 bg-coolGray-50 overflow-hidden'>
+      <section className='py-12 md:py-24 bg-coolGray-50 overflow-hidden' id="servicios-section">
         <div className='container mx-auto px-4'>
           <h1 className='font-heading text-6xl xs:text-8xl sm:text-10xl tracking-tighter mb-20'>
             Servicios
@@ -39,7 +39,7 @@ export default function Servicios() {
                     <p className='mb-8'>DESCRIPCION</p>
                     <a
                       className='group inline-flex items-center leading-none font-medium pb-2 border-b-2 border-black'
-                      href='contacto.html'
+                      href='#contacto'
                     >
                       <span className='mr-4'>Contacto</span>
                       <span className='group-hover:rotate-45 transform transition duration-100'>
@@ -62,9 +62,11 @@ export default function Servicios() {
                   <div className='flex flex-wrap justify-between'>
                     <div className='w-full md:w-7/12 pl-6 sm:pl-12 pr-5 py-0 self-center'>
                       <div className='max-w-xs py-18'>
+                      <a href="#contacto">
                         <span className='inline-block mb-3 py-2 px-3 text-sm text-black group-hover:text-white leading-none border-1.5 border-black group-hover:bg-black rounded-full transition duration-200'>
                           Contacto
                         </span>
+                      </a>
                         <span className='block text-4xl mb-4'>Car Wash</span>
                         <p>DESCRIPCION</p>
                       </div>
@@ -82,11 +84,13 @@ export default function Servicios() {
                   <div className='flex flex-wrap justify-between'>
                     <div className='w-full md:w-7/12 pl-6 sm:pl-12 pr-5 py-0 self-center'>
                       <div className='max-w-xs py-18'>
+                      <a href="#contacto">
                         <span className='inline-block mb-3 py-2 px-3 text-sm text-black group-hover:text-white leading-none border-1.5 border-black group-hover:bg-black rounded-full transition duration-200'>
                           Contacto
                         </span>
                         <span className='block text-4xl mb-4'>Wrapping</span>
                         <p>DESCRIPCION</p>
+                      </a>
                       </div>
                     </div>
                     <div className='w-full md:w-5/12 md:transform group-hover:translate-y-4 transition duration-500'>
