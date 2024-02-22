@@ -75,32 +75,29 @@ export default function Contacto() {
                     </a>
                   </div>{' '}
                 </div>{' '}
-                <div>
-                  {' '}
+                <div className='justify-center'>
                   <h1
-                    className='font-heading text-4xl xs:text-6xl sm:text-7xl xl:text-8xl tracking-tighter mb-8'
+                    className='font-heading xs:text-3xl sm:text-3xl xl:text-3xl tracking-tighter mb-2'
                     contentEditable='false'
                   >
-                    Visítanos
-                  </h1>{' '}
-                  <span className='block mb-4 text-xl'>Amaze - Chicureo</span>{' '}
+                    Visítanos en 
+                  </h1>
+                  <span className='font-heading block mb-4 text-3xl'>Estudio Amaze - Chicureo</span>
                   <p className='text-coolGray-600'>
                     Av. Chicureo Km 2,5 - Strip Center Aumotriz, Local E
-                  </p>{' '}
-                  <div className='max-w-md rounded-3xl border-2 border-white overflow-hidden'>
-                    {' '}
+                  </p>
                     <a href='https://maps.app.goo.gl/xWa8GaxC9hWeJRAB7'>
-                      {' '}
                       <img
-                        className='block w-full'
+                        className='block w-full h-full object-cover rounded-3xl'
                         src='images/mapa.png'
                         alt=''
                       />
-                    </a>{' '}
-                  </div>{' '}
-                </div>{' '}
-              </div>{' '}
-            </div>{' '}
+                    </a>
+                </div>
+
+
+              </div>
+            </div>
             <div className='w-full lg:w-1/2 px-4'>
               {' '}
               <div className='py-12 px-8 md:px-10 bg-white rounded-4xl max-w-xl mx-auto lg:mr-0'>

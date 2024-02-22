@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactButton from './ContactButton.jsx';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const meta = {
@@ -32,7 +33,7 @@ export default function Call() {
                 renueva tu imagen
               </span>
             </h1>
-            <a
+            {/* <a
               className='group inline-flex mb-3 sm:mb-0 sm:mr-4 py-5 px-8 text-black hover:text-white leading-none items-center justify-center bg-white hover:bg-black rounded-full transition duration-150'
               href='#'
             >
@@ -63,7 +64,8 @@ export default function Call() {
                   />
                 </svg>
               </span>
-            </a>
+            </a> */}
+            <ContactButton />
           </div>
         </div>
       </section>
