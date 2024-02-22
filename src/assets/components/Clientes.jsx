@@ -1,7 +1,5 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-// import BeforeAfterSlider from './BeforeAfter';
-//import { ImgComparisonSlider} from '@img-comparison-slider/react';
 import ClienteBeforeAfter from './ClienteBeforeAfter';
 import { dataCliente } from '../../dataClienteExample.js';
 

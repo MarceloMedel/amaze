@@ -53,7 +53,6 @@ export default function Header() {
                                 >
                                     Clientes
                                 </a>
-                            </div>
                             <a
                                 className='group hidden lg:inline-flex py-4 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200'
                                 href='/#contacto-section'
@@ -86,6 +85,7 @@ export default function Header() {
                                     </svg>
                                 </span>
                             </a>
+                            </div>
                         </div>
                     </div>
                 </nav>
