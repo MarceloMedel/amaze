@@ -3,11 +3,11 @@ import './App.css'
 import { useLocation, useRoutes } from "react-router-dom";
 import Home from "./pages/home";
 import ClientesPage from "./pages/clientes";
-import Servicios from './assets/components/Servicios'
+import Servicios from './assets/components/Servicios';
 
 
-import Contacto from './assets/components/Contacto'
-import Clientes from './assets/components/Clientes'
+import Contacto from './assets/components/Contacto';
+import Portafolio from './assets/components/Portafolio'
 
 
 
@@ -25,12 +25,12 @@ function App() {
         <Servicios />
       )
     },
-    {
-      path: "/clientes",
-      element: (
-        <Clientes />
-      )
-    },
+    // {
+    //   path: "/portafolio",
+    //   element: (
+    //     <Portafolio />
+    //   )
+    // },
     {
       path: "/contacto",
       element: (

@@ -7,7 +7,7 @@ export default function ContactButton() {
     return (
         <>
         <a
-              className='group inline-flex mb-3 sm:mb-0 sm:mr-4 py-5 px-8 text-black hover:text-white leading-none items-center justify-center bg-white hover:bg-black rounded-full transition duration-150'
+              className='group border-2 inline-flex mb-3 sm:mb-0 sm:mr-4 py-5 px-8 text-black hover:text-white leading-none items-center justify-center bg-white hover:bg-black rounded-full transition duration-150'
               href='#contacto'
             >
               <span className='mr-2.5'>Escríbenos</span>

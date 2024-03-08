@@ -4,7 +4,7 @@ import Header from '../assets/components/Header'
 import Hero from '../assets/components/Hero'
 import Servicios from '../assets/components/Servicios'
 import Call from '../assets/components/Call'
-import Clientes from '../assets/components/Clientes'
+import Clientes from '../assets/components/Portafolio'
 import Contacto from '../assets/components/Contacto'
 
 
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <Servicios />
       <Call />
-      <Clientes />
+      {/* <Clientes /> */}
       <Contacto />
     </>
   );
