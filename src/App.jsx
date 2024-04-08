@@ -25,12 +25,12 @@ function App() {
         <Servicios />
       )
     },
-    // {
-    //   path: "/portafolio",
-    //   element: (
-    //     <Portafolio />
-    //   )
-    // },
+    {
+      path: "/portafolio",
+      element: (
+        <Portafolio />
+      )
+    },
     {
       path: "/contacto",
       element: (
